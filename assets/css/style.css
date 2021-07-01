@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.menu{
+    background: gray ;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    padding-bottom: 15px;
+}
+
+ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+ul li a:hover{
+    transition:  1s;
+    color: black;
+}
+
+#alena{
+    font-size: 20px;
+    margin-left: 45%;
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    margin: 30px 120px 30px 0;
+    list-style: none;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+}
+
+
+.aboutAuthor{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 28px;
+}
+
+.infoAuthor{
+    text-align: center;
+    margin-left: 50px;
+    
+}
+
+.author{
+    margin-right: 50px;
+}
+
+.author img{
+    width: 400px;
+}
+
+.blockInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color:whitesmoke;
+    font-size: 30px;
+}
+
+.aboutUs{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.aboutUs h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+.blockProd{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.prod{
+    height: 300px;
+    text-align: center;
+}
+
+.prod img{
+    height: 350px;
+}
+
+.aboutMe{
+    width: 100%;
+}
+
+.hobbies{
+    
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.textHob{
+    padding: 20px;
+}
+
+.imgHob img{
+   width: 100%;
+}
+
